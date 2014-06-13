@@ -1,0 +1,19 @@
+﻿{
+"name": "NTHU iLMS password saver",
+"author": "Tzu-Wei Huang",
+"manifest_version": 2,
+"version": "0.1",
+        "permissions": [
+          "storage"
+        ],
+"icons": { "16": "nthu16.jpg",
+           "48": "nthu48.jpg",
+          "128": "nthu128.jpg" },        
+"description": "This extension saves the account/password of iLMS",
+"content_scripts": [
+	{
+	"matches": ["http://lms.nthu.edu.tw/login_page*"],
+	"js": ["lmspasswd.js"]
+	}
+	]
+}
