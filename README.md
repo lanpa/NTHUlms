@@ -1,1 +1,1 @@
-REMEMBER to check  記住我的登入資訊 to renew the information.
+REMEMBER to check  記住我的登入資訊 to renew your account information.
